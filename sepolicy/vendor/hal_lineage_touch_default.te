@@ -1,0 +1,2 @@
+allow hal_lineage_touch_default sysfs_touch_glove_mode:file rw_file_perms;
+get_prop(hal_lineage_touch_default, build_prop);
