@@ -80,6 +80,9 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 TARGET_USES_MEDIA_EXTENSIONS := true
 MALLOC_SVELTE_FOR_LIBC32 := true
 
+# Dalvik
+TARGET_HAS_6GB_RAM ?= false
+
 # Dex
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
